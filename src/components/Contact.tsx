@@ -10,22 +10,22 @@ const Contact = () => {
         </h2>
         
         <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+         Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de sus visiones.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="gap-2" asChild>
-            <a href="mailto:your.email@example.com">
+            <a href="mailto:iwanehu@gmail.com">
               <Mail className="h-5 w-5" /> Email Me
             </a>
           </Button>
           <Button size="lg" variant="outline" className="gap-2" asChild>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/iwanehu" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5" /> GitHub
             </a>
           </Button>
           <Button size="lg" variant="outline" className="gap-2" asChild>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/snayder-marulanda/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-5 w-5" /> LinkedIn
             </a>
           </Button>

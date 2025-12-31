@@ -4,27 +4,30 @@ import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+
+{
+      title: "MovieWebApp",
+      description: "Una aplicación web basada en React, TypeScript y Vite para explorar y descubrir películas.",
+      tech: ["React", "TypeScript", "React icon", "Vite"],
+      github: "https://github.com/iwanehu/MovieWebApp",
+      live: "https://moviewebaapp.netlify.app/"
+    },
+
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics.",
-      tech: ["React", "Node.js", "PostgreSQL"],
-      github: "#",
-      live: "#"
+      title: "The-wild-oasis website",
+      description: "Sirve como panel de gestión de reservas para cabañas de lujo. Permite a los administradores gestionar reservas, cabañas, usuarios y configuraciones, ofreciendo una herramienta integral para supervisar las operaciones de alquiler de cabañas .",
+      tech: ["React", "Next.js", "supabase","Tailwind CSS","Heroicon",],
+      github: "https://github.com/iwanehu/The-wild-oasis-website",
+      live: "https://the-wild-oasis-website-1jus.vercel.app/"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management tool with real-time updates, team workspaces, and project tracking.",
-      tech: ["TypeScript", "Express", "MongoDB"],
-      github: "#",
-      live: "#"
+      title: "React Pizza",
+      description: "Un proyecto React para tomar pedidos de pizza de forma rápida y eficiente. Abrir con chrome para la geolocalizacion funcione",
+      tech: ["React", "tailwind css", "Redux"],
+      github: "https://github.com/iwanehu/fast-pizza",
+      live: "https://faz-pizza.netlify.app/"
     },
-    {
-      title: "Analytics Dashboard",
-      description: "Data visualization dashboard with interactive charts, custom reports, and export functionality.",
-      tech: ["React", "D3.js", "Python"],
-      github: "#",
-      live: "#"
-    }
+    
   ];
 
   return (

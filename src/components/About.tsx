@@ -8,11 +8,11 @@ const About = () => {
         
         <div className="bg-card rounded-lg p-8 shadow-lg border border-border">
           <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            Ingeniero Informático enfocado en el desarrollo de software robusto, optimización de procesos y la creación de productos digitales que impulsan el éxito tecnológico.
+           Computer Engineer focused on developing robust software, optimizing processes, and creating digital products that drive technological success.
           </p>
           
           <p className="text-lg text-muted-foreground leading-relaxed">
-           Cuando no estoy programando, me puedes encontrar explorando nuevas tecnologías, contribuyendo al código abierto o compartiendo conocimientos con la comunidad de desarrolladores.
+          When I'm not programming, you can find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.
           </p>
         </div>
       </div>

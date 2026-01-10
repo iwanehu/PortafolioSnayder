@@ -9,6 +9,7 @@ const Projects = () => {
       title: "MovieWebApp",
       description: "Una aplicación web basada en React, TypeScript y Vite para explorar y descubrir películas.",
       tech: ["React", "TypeScript", "React icon", "Vite"],
+      Image:["movieapp.png"],
       github: "https://github.com/iwanehu/MovieWebApp",
       live: "https://moviewebaapp.netlify.app/"
     },
@@ -17,6 +18,7 @@ const Projects = () => {
       title: "The-wild-oasis website",
       description: "Sirve como panel de gestión de reservas para cabañas de lujo. Permite a los administradores gestionar reservas, cabañas, usuarios y configuraciones, ofreciendo una herramienta integral para supervisar las operaciones de alquiler de cabañas .",
       tech: ["React", "Next.js", "supabase","Tailwind CSS","Heroicon",],
+      Image:["wildoasis.png"],
       github: "https://github.com/iwanehu/The-wild-oasis-website",
       live: "https://the-wild-oasis-website-1jus.vercel.app/"
     },
@@ -24,6 +26,7 @@ const Projects = () => {
       title: "React Pizza",
       description: "Un proyecto React para tomar pedidos de pizza de forma rápida y eficiente. Abrir con chrome para la geolocalizacion funcione",
       tech: ["React", "tailwind css", "Redux"],
+      Image:["pizza.png"],
       github: "https://github.com/iwanehu/fast-pizza",
       live: "https://faz-pizza.netlify.app/"
     },
@@ -40,6 +43,9 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <Card key={project.title} className="group hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 border-border">
+             <div className="relative aspect-video overflow-hidden">
+              <img src={project.Image} alt={project.title} className="w-full h-full object-cover" />
+             </div>
               <CardHeader>
                 <CardTitle className="group-hover:text-primary transition-colors">
                   {project.title}

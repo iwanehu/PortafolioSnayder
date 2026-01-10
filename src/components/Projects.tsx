@@ -7,7 +7,7 @@ const Projects = () => {
 
 {
       title: "MovieWebApp",
-      description: "Una aplicación web basada en React, TypeScript y Vite para explorar y descubrir películas.",
+      description: "A web application based on React, TypeScript, and Vite for exploring and discovering movies ",
       tech: ["React", "TypeScript", "React icon", "Vite"],
       Image:["movieapp.png"],
       github: "https://github.com/iwanehu/MovieWebApp",
@@ -16,7 +16,7 @@ const Projects = () => {
 
     {
       title: "The-wild-oasis website",
-      description: "Sirve como panel de gestión de reservas para cabañas de lujo. Permite a los administradores gestionar reservas, cabañas, usuarios y configuraciones, ofreciendo una herramienta integral para supervisar las operaciones de alquiler de cabañas .",
+      description: "It serves as a reservation management panel for luxury cabins. It allows administrators to manage bookings, cabins, users, and settings, offering a comprehensive tool to oversee cabin rental operations.",
       tech: ["React", "Next.js", "supabase","Tailwind CSS","Heroicon",],
       Image:["wildoasis.png"],
       github: "https://github.com/iwanehu/The-wild-oasis-website",
@@ -24,7 +24,7 @@ const Projects = () => {
     },
     {
       title: "React Pizza",
-      description: "Un proyecto React para tomar pedidos de pizza de forma rápida y eficiente. Abrir con chrome para la geolocalizacion funcione",
+      description: "A React project for taking pizza orders quickly and efficiently. Open with Chrome for geolocation to work",
       tech: ["React", "tailwind css", "Redux"],
       Image:["pizza.png"],
       github: "https://github.com/iwanehu/fast-pizza",

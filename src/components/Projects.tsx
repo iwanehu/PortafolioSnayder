@@ -4,6 +4,14 @@ import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Instagram Replica",
+      description: "functional Instagram replica ",
+      tech: ["React", "TypeScript", "React icon", "Vite"],
+      Image:["instagramrepli.png"],
+      github: "https://github.com/iwanehu/instagramclone",
+      live: "https://cloninssta.netlify.app/"
+    },
 
 {
       title: "MovieWebApp",

@@ -10,7 +10,7 @@ const Contact = () => {
         </h2>
         
         <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-         Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de sus visiones.
+        I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

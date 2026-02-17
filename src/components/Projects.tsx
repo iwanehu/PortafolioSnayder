@@ -5,6 +5,14 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "Pokedex ",
+      description: "Advanced Pokedex with TS logic and PokeAPI",
+      tech: ["React", "TypeScript", "Netlify", "Vite"],
+      Image: ["pokedexsnay.png"],
+      github: "https://github.com/iwanehu/Pokedex",
+      live: "https://pokedexsnay.netlify.app/" 
+    },
+    {
       title: "Instagram Replica",
       description: "functional Instagram replica ",
       tech: ["React", "TypeScript", "React icon", "Vite"],

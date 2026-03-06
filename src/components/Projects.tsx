@@ -7,7 +7,7 @@ const Projects = () => {
      {
       title: "javafx-chat ",
       description: "This is a real-time chat that uses Spring Boot for the messaging server (WebSockets/STOMP) and JavaFX for the user interface.",
-      tech: ["Spring Boot 3.2.0, Spring WebSocket, Jackson (JSON)"],
+      tech: ["Spring Boot 3.2.0", "Spring WebSocket", "Jackson (JSON)"],
       Image: ["chatjva.png"],
       github: "https://github.com/iwanehu/javafx-chat"
       

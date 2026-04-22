@@ -3,8 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
-  const projects = [  
-    const Projects = () => {
+  
   const projects = [
     {
       title: "crypto-dashboard-auto-refresh",

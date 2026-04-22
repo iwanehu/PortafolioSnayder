@@ -3,7 +3,24 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
-  const projects = [
+  const projects = [  
+    {
+  title: "crypto-dashboard-auto-refresh",
+  description: "A cryptocurrency dashboard built with Django that displays real-time data using an auto-refresh mechanism. It integrates Neon PostgreSQL as the database, includes custom middleware, and follows a modular architecture for scalability.",
+  "tech": [
+    "Django 5",
+    "Python 3",
+    "Neon PostgreSQL",
+    "HTML & CSS",
+    "JavaScript (auto-refresh)",
+    "Requests",
+    "python-dotenv"
+  ], Image: ["dashboard.png"],
+  github: "https://github.com/iwanehu/Da",
+    live: https://da-v9zw.onrender.com/" 
+},
+
+    
      {
       title: "javafx-chat ",
       description: "This is a real-time chat that uses Spring Boot for the messaging server (WebSockets/STOMP) and JavaFX for the user interface.",

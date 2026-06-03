@@ -21,7 +21,8 @@ Spring Boot",
     "Docker"
 ],
   Image: ["tasktracker.png"],
-  github: "https://github.com/iwanehu/task-tracker-font"
+  github: "https://github.com/iwanehu/task-tracker-font",
+  live: "https://task-tracker-font.vercel.app"
 },
     
     {

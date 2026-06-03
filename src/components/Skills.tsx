@@ -2,10 +2,15 @@ import { Badge } from "@/components/ui/badge";
 
 const Skills = () => {
   const skills = [
-    "HTML", "CSS", "JavaScript", "Java", "React", "TypeScript", "Node.js", "Python", 
-    "PostgreSQL", "MongoDB", "Tailwind CSS",
-     "Git", "REST APIs"
-  ];
+  "HTML", "CSS", "JavaScript",
+  "TypeScript", "React", "Vite",
+  "Java", "Spring Boot", "Spring Security",
+  "REST APIs", "JWT Authentication",
+  "PostgreSQL", "JPA / Hibernate",
+  "Docker",
+  "Git",
+  "Clean Architecture", "Backend Development", "Fullstack Development"
+];
 
   return (
     <section id="skills" className="py-20 px-6 bg-secondary/30">

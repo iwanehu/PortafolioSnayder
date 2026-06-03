@@ -5,6 +5,25 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   
   const projects = [
+
+
+{
+  title: "TaskTracker",
+  description: "Full-stack task management application with secure REST API (Spring Boot) and React frontend, featuring authentication (JWT), PostgreSQL persistence, task states, priorities, and multi-user support.",
+  tech: ["
+Spring Boot",
+    "Spring Security",
+    "JWT",
+    "PostgreSQL",
+    "JPA / Hibernate",
+    "React",
+    "Vite",
+    "Docker"
+],
+  Image: ["tasktracker.png"],
+  github: "https://github.com/iwanehu/task-tracker-font"
+},
+    
     {
       title: "crypto-dashboard-auto-refresh",
       description:

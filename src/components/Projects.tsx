@@ -5,6 +5,23 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   
   const projects = [
+    {
+    "title": "JavaChatRoom",
+    "description": "REST API and WebSocket for real-time chat with JWT authentication. Backend with Spring Boot + MongoDB Atlas.",
+    "tech": [
+      "Spring Boot",
+      "Spring WebSocket",
+      "JWT",
+      "Spring Data MongoDB",
+      "MongoDB Atlas",
+      "React",
+      "Vite",
+      "Docker"
+    ],
+    "Image": ["javachat-react.png"],
+    "github": "https://github.com/iwanehu/javachat",
+    "live": "https://java-chatroom.netlify.app/"
+  },
 
 
 {

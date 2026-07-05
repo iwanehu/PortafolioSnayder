@@ -69,6 +69,16 @@ const Projects = () => {
       github: "https://github.com/iwanehu/Pokedex",
       live: "https://pokedexsnay.netlify.app/" 
     },
+
+    {
+      title: "MovieWebApp",
+      description: "A web application based on React, TypeScript, and Vite for exploring and discovering movies ",
+      tech: ["React", "TypeScript", "React icon", "Vite"],
+      Image:["movieapp.png"],
+      github: "https://github.com/iwanehu/MovieWebApp",
+      live: "https://moviewebaapp.netlify.app/"
+    },
+    
     {
       title: "Instagram Replica",
       description: "functional Instagram replica ",
@@ -78,14 +88,7 @@ const Projects = () => {
       live: "https://cloninssta.netlify.app/"
     },
 
-{
-      title: "MovieWebApp",
-      description: "A web application based on React, TypeScript, and Vite for exploring and discovering movies ",
-      tech: ["React", "TypeScript", "React icon", "Vite"],
-      Image:["movieapp.png"],
-      github: "https://github.com/iwanehu/MovieWebApp",
-      live: "https://moviewebaapp.netlify.app/"
-    },
+
 
     {
       title: "The-wild-oasis website",

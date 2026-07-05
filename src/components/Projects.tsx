@@ -60,15 +60,7 @@ const Projects = () => {
       live: "https://da-v9zw.onrender.com/"
     },
 
-    
-     {
-      title: "javafx-chat ",
-      description: "This is a real-time chat that uses Spring Boot for the messaging server (WebSockets/STOMP) and JavaFX for the user interface.",
-      tech: ["Spring Boot 3.2.0", "Spring WebSocket", "Jackson (JSON)"],
-      Image: ["chatjva.png"],
-      github: "https://github.com/iwanehu/javafx-chat"
-      
-    },
+   
     {
       title: "Pokedex ",
       description: "Advanced Pokedex with TS logic and PokeAPI",

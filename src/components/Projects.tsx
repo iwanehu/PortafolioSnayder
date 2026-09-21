@@ -26,7 +26,7 @@ const Projects = () => {
       "Bean Validation",
       "Lombook"
     ],
-    "Image": ["javachat-react.png"],
+    "Image": ["hospitalgestion.png"],
     "github": "https://github.com/iwanehu/hospitalgestion",
     "live": "https://164-132-187-235.sslip.io/login"
   },

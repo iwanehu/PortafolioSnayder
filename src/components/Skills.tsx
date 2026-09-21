@@ -9,7 +9,7 @@ const Skills = () => {
         "Spring Boot",
         "Spring Security",
         "REST APIs",
-        "JWT",
+        "JWT Authentication",
         "JPA / Hibernate",
       ],
     },
@@ -42,13 +42,20 @@ const Skills = () => {
       ],
     },
     {
+      title: "Testing",
+      skills: [
+        "JUnit",
+        "Mockito",
+        "Testcontainers",
+      ],
+    },
+    {
       title: "Practices",
       skills: [
         "Clean Architecture",
         "API Design",
         "Authentication",
-        "Backend Development",
-        "Full-Stack Development",
+        "Database Migrations",
       ],
     },
   ];

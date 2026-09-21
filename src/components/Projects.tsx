@@ -47,22 +47,23 @@ const Projects = () => {
 
 
 {
-    "title": "TaskTracker",
-    "description": "Full-stack task management application with secure REST API (Spring Boot) and React frontend, featuring authentication (JWT), PostgreSQL persistence, task states, priorities, and multi-user support.",
-    "tech": [
-      "Spring Boot",
-      "Spring Security",
-      "JWT",
-      "PostgreSQL",
-      "JPA / Hibernate",
-      "React",
-      "Vite",
-      "Docker"
-    ],
-    "Image": ["tasktracker.png"],
-    "github": "https://github.com/iwanehu/task-tracker-font",
-    "live": "https://task-tracker-font.vercel.app/"
-  },
+  "title": "TaskTracker",
+  "description": "Full-stack task management application with secure REST API built with Spring Boot and a React frontend. Includes JWT authentication, PostgreSQL persistence, task states, priorities, filters, and multi-user support.",
+  "tech": [
+    "Spring Boot",
+    "Spring Security",
+    "JWT",
+    "PostgreSQL",
+    "JPA / Hibernate",
+    "React",
+    "Vite",
+    "Docker",
+    "Nginx"
+  ],
+  "Image": ["tasktracker.png"],
+  "github": "https://github.com/iwanehu/task-tracker-font",
+  "live": "https://tasks.164-132-187-235.sslip.io"
+},
     
     {
       title: "crypto-dashboard-auto-refresh",

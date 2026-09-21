@@ -1,135 +1,147 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
-  
   const projects = [
-
-
     {
-    "title": "Hospital-gestion",
-    "description": "Hospital Manageent api is a backend REST API developed with java and spring boot for managing the core operations of hospital",
-    tech: [
-  "Spring Boot",
-  "Spring Data JPA",
-  "Hibernate",
-  "PostgreSQL",
-  "Flyway",
-  "REST API",
-  "JWT",
-  "Bean Validation",
-  "Lombok"
-],
-    "Image": ["hospitalgestion.png"],
-    "github": "https://github.com/iwanehu/hospitalgestion",
-    "live": "https://164-132-187-235.sslip.io/login"
-  },
-
-    
-    {
-    "title": "JavaChatRoom",
-    "description": "REST API and WebSocket for real-time chat with JWT authentication. Backend with Spring Boot + MongoDB Atlas.",
-    "tech": [
-      "Spring Boot",
-      "Spring WebSocket",
-      "JWT",
-      "Spring Data MongoDB",
-      "MongoDB Atlas",
-      "React",
-      "Vite",
-      "Docker"
-    ],
-    "Image": ["javachat-react.png"],
-    "github": "https://github.com/iwanehu/javachat",
-    "live": "https://java-chatroom.netlify.app/"
-  },
-
-
-{
-  "title": "TaskTracker",
-  "description": "Full-stack task management application with secure REST API built with Spring Boot and a React frontend. Includes JWT authentication, PostgreSQL persistence, task states, priorities, filters, and multi-user support.",
-  "tech": [
-    "Spring Boot",
-    "Spring Security",
-    "JWT",
-    "PostgreSQL",
-    "JPA / Hibernate",
-    "React",
-    "Vite",
-    "Docker",
-    "Nginx"
-  ],
-  "Image": ["tasktracker.png"],
-  "github": "https://github.com/iwanehu/task-tracker-backend",
-  "live": "https://tasks.164-132-187-235.sslip.io"
-},
-    
-    {
-      title: "crypto-dashboard-auto-refresh",
+      title: "Hospital Management",
       description:
-        "A cryptocurrency dashboard built with Django that displays real-time data using an auto-refresh mechanism. It integrates Neon PostgreSQL as the database, includes custom middleware, and follows a modular architecture for scalability.",
+        "Full-stack hospital management platform built with Spring Boot, React, and PostgreSQL. Includes JWT authentication, role-based authorization, patient and staff management, appointments, admissions, Flyway migrations, automated testing, Docker deployment, and Swagger/OpenAPI documentation.",
+      tech: [
+        "Java 21",
+        "Spring Boot",
+        "Spring Security",
+        "PostgreSQL",
+        "JPA / Hibernate",
+        "Flyway",
+        "React",
+        "Docker",
+        "JUnit",
+        "Testcontainers",
+        "Swagger / OpenAPI",
+      ],
+      Image: ["hospitalgestion.png"],
+      github: "https://github.com/iwanehu/hospitalgestion",
+      live: "https://164-132-187-235.sslip.io/login",
+    },
+
+    {
+      title: "TaskTracker",
+      description:
+        "Full-stack task management application with JWT authentication, PostgreSQL persistence, per-user task ownership, task statuses, priorities, filtering, sorting, and Dockerized deployment behind Nginx with HTTPS.",
+      tech: [
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "PostgreSQL",
+        "JPA / Hibernate",
+        "React",
+        "Vite",
+        "Docker",
+        "Nginx",
+      ],
+      Image: ["tasktracker.png"],
+      github: "https://github.com/iwanehu/task-tracker-backend",
+      live: "https://tasks.164-132-187-235.sslip.io",
+    },
+
+    {
+      title: "JavaChatRoom",
+      description:
+        "Real-time chat application built with Spring Boot, WebSocket, JWT authentication, React, and a persistent backend architecture for multi-user communication.",
+      tech: [
+        "Spring Boot",
+        "Spring WebSocket",
+        "JWT",
+        "React",
+        "Vite",
+        "Docker",
+      ],
+      Image: ["javachat-react.png"],
+      github: "https://github.com/iwanehu/javachat",
+      live: "https://java-chatroom.netlify.app/",
+    },
+
+    {
+      title: "Crypto Dashboard",
+      description:
+        "Cryptocurrency dashboard built with Django that displays live market data using an auto-refresh mechanism. It integrates Neon PostgreSQL, custom middleware, and a modular backend architecture.",
       tech: [
         "Django 5",
         "Python 3",
         "Neon PostgreSQL",
         "HTML & CSS",
-        "JavaScript (auto-refresh)",
+        "JavaScript",
         "Requests",
-        "python-dotenv"
+        "python-dotenv",
       ],
       Image: ["dashboard.png"],
       github: "https://github.com/iwanehu/Da",
-      live: "https://da-v9zw.onrender.com/"
+      live: "https://da-v9zw.onrender.com/",
     },
 
-   
     {
-      title: "Pokedex ",
-      description: "Advanced Pokedex with TS logic and PokeAPI",
-      tech: ["React", "TypeScript", "Netlify", "Vite"],
+      title: "Pokedex",
+      description:
+        "Interactive Pokédex built with React and TypeScript using the PokeAPI to explore Pokémon data, abilities, stats, and related information.",
+      tech: ["React", "TypeScript", "Vite", "PokeAPI", "Netlify"],
       Image: ["pokedexsnay.png"],
       github: "https://github.com/iwanehu/Pokedex",
-      live: "https://pokedexsnay.netlify.app/" 
+      live: "https://pokedexsnay.netlify.app/",
     },
 
     {
       title: "MovieWebApp",
-      description: "A web application based on React, TypeScript, and Vite for exploring and discovering movies ",
-      tech: ["React", "TypeScript", "React icon", "Vite"],
-      Image:["movieapp.png"],
+      description:
+        "Movie discovery web application built with React, TypeScript, and Vite, focused on browsing and exploring movie content through a modern frontend interface.",
+      tech: ["React", "TypeScript", "React Icons", "Vite"],
+      Image: ["movieapp.png"],
       github: "https://github.com/iwanehu/MovieWebApp",
-      live: "https://moviewebaapp.netlify.app/"
+      live: "https://moviewebaapp.netlify.app/",
     },
-    
+
+    {
+      title: "The Wild Oasis",
+      description:
+        "Reservation management dashboard for luxury cabins. It allows administrators to manage bookings, cabins, users, and application settings through a modern full-stack interface.",
+      tech: [
+        "React",
+        "Next.js",
+        "Supabase",
+        "Tailwind CSS",
+        "Heroicons",
+      ],
+      Image: ["wildoasis.png"],
+      github: "https://github.com/iwanehu/The-wild-oasis-website",
+      live: "https://the-wild-oasis-website-1jus.vercel.app/",
+    },
+
     {
       title: "Instagram Replica",
-      description: "functional Instagram replica ",
-      tech: ["React", "TypeScript", "React icon", "Vite"],
-      Image:["instagramrepli.png"],
+      description:
+        "Instagram-inspired social media interface built with React and TypeScript, focused on recreating core layout and interaction patterns.",
+      tech: ["React", "TypeScript", "React Icons", "Vite"],
+      Image: ["instagramrepli.png"],
       github: "https://github.com/iwanehu/instagramclone",
-      live: "https://cloninssta.netlify.app/"
+      live: "https://cloninssta.netlify.app/",
     },
 
-
-
-    {
-      title: "The-wild-oasis website",
-      description: "It serves as a reservation management panel for luxury cabins. It allows administrators to manage bookings, cabins, users, and settings, offering a comprehensive tool to oversee cabin rental operations.",
-      tech: ["React", "Next.js", "supabase","Tailwind CSS","Heroicon",],
-      Image:["wildoasis.png"],
-      github: "https://github.com/iwanehu/The-wild-oasis-website",
-      live: "https://the-wild-oasis-website-1jus.vercel.app/"
-    },
     {
       title: "React Pizza",
-      description: "A React project for taking pizza orders quickly and efficiently. Open with Chrome for geolocation to work",
-      tech: ["React", "tailwind css", "Redux"],
-      Image:["pizza.png"],
+      description:
+        "Pizza ordering application built with React and Redux, featuring a fast order workflow, responsive UI, and geolocation support.",
+      tech: ["React", "Redux", "Tailwind CSS"],
+      Image: ["pizza.png"],
       github: "https://github.com/iwanehu/fast-pizza",
-      live: "https://faz-pizza.netlify.app/"
+      live: "https://faz-pizza.netlify.app/",
     },
-    
   ];
 
   return (
@@ -138,37 +150,72 @@ const Projects = () => {
         <h2 className="text-4xl font-bold mb-12 text-center">
           Featured <span className="text-gradient">Projects</span>
         </h2>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
-            <Card key={project.title} className="group hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 border-border">
-             <div className="relative aspect-video overflow-hidden">
-              <img src={project.Image} alt={project.title} className="w-full h-full object-cover" />
-             </div>
+            <Card
+              key={project.title}
+              className="group hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 border-border"
+            >
+              <div className="relative aspect-video overflow-hidden">
+                <img
+                  src={project.Image[0]}
+                  alt={`${project.title} preview`}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+
               <CardHeader>
                 <CardTitle className="group-hover:text-primary transition-colors">
                   {project.title}
                 </CardTitle>
-                <CardDescription>{project.description}</CardDescription>
+
+                <CardDescription>
+                  {project.description}
+                </CardDescription>
               </CardHeader>
+
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech) => (
-                    <span key={tech} className="text-xs px-2 py-1 rounded bg-secondary text-secondary-foreground">
+                    <span
+                      key={tech}
+                      className="text-xs px-2 py-1 rounded bg-secondary text-secondary-foreground"
+                    >
                       {tech}
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-3">
-                  <Button size="sm" variant="outline" className="gap-2 flex-1" asChild>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Github className="h-4 w-4" /> Code
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="gap-2 flex-1"
+                    asChild
+                  >
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="h-4 w-4" />
+                      GitHub
                     </a>
                   </Button>
-                  <Button size="sm" className="gap-2 flex-1" asChild>
-                    <a href={project.live} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="h-4 w-4" /> Live
+
+                  <Button
+                    size="sm"
+                    className="gap-2 flex-1"
+                    asChild
+                  >
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="h-4 w-4" />
+                      Live Demo
                     </a>
                   </Button>
                 </div>

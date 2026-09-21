@@ -61,8 +61,7 @@ const Projects = () => {
     "Nginx"
   ],
   "Image": ["tasktracker.png"],
-  "github": "https://github.com/iwanehu/task-tracker-font",
-  "backend": "https://github.com/iwanehu/task-tracker-backend",
+  "github": "https://github.com/iwanehu/task-tracker-backend",
   "live": "https://tasks.164-132-187-235.sslip.io"
 },
     

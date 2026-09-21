@@ -50,11 +50,11 @@ const Skills = () => {
       ],
     },
     {
-      title: "Practices",
+      title: "Engineering Practices",
       skills: [
         "Clean Architecture",
         "API Design",
-        "Authentication",
+        "Security Best Practices",
         "Database Migrations",
       ],
     },

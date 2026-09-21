@@ -10,22 +10,17 @@ const Projects = () => {
     {
     "title": "Hospital-gestion",
     "description": "Hospital Manageent api is a backend REST API developed with java and spring boot for managing the core operations of hospital",
-    "tech": [
-      "Spring Boot",
-      "Spring Data JPA",
-      "Hibernate",
-      "PostgreSQL",
-      "Flyway",
-      "REST API"
-      "JWT",
-      "Spring Data MongoDB",
-      "MongoDB Atlas",
-      "React",
-      "Vite",
-      "Docker",
-      "Bean Validation",
-      "Lombook"
-    ],
+    tech: [
+  "Spring Boot",
+  "Spring Data JPA",
+  "Hibernate",
+  "PostgreSQL",
+  "Flyway",
+  "REST API",
+  "JWT",
+  "Bean Validation",
+  "Lombok"
+],
     "Image": ["hospitalgestion.png"],
     "github": "https://github.com/iwanehu/hospitalgestion",
     "live": "https://164-132-187-235.sslip.io/login"

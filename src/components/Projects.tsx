@@ -13,7 +13,7 @@ const Projects = () => {
     {
       title: "Hospital Management",
       description:
-        "Full-stack hospital management platform built with Spring Boot, React, and PostgreSQL. Includes JWT authentication, role-based authorization, patient and staff management, appointments, admissions, Flyway migrations, automated testing, Docker deployment, and Swagger/OpenAPI documentation.",
+        "Full-stack hospital management platform built with Spring Boot, React, and PostgreSQL. Includes JWT authentication, role-based access, patient and staff management, appointments, admissions, automated testing, and Docker deployment.",
       tech: [
         "Java 21",
         "Spring Boot",
@@ -35,7 +35,7 @@ const Projects = () => {
     {
       title: "TaskTracker",
       description:
-        "Full-stack task management application with JWT authentication, PostgreSQL persistence, per-user task ownership, task statuses, priorities, filtering, sorting, and Dockerized deployment behind Nginx with HTTPS.",
+        "Full-stack task management app with JWT authentication, PostgreSQL persistence, task ownership, priorities, filtering, sorting, and Docker deployment behind Nginx.",
       tech: [
         "Spring Boot",
         "Spring Security",
@@ -55,7 +55,7 @@ const Projects = () => {
     {
       title: "JavaChatRoom",
       description:
-        "Real-time chat application built with Spring Boot, WebSocket, JWT authentication, React, and a persistent backend architecture for multi-user communication.",
+        "Real-time chat application built with Spring Boot, WebSocket, JWT authentication, React, and persistent multi-user communication.",
       tech: [
         "Spring Boot",
         "Spring WebSocket",
@@ -72,7 +72,7 @@ const Projects = () => {
     {
       title: "Crypto Dashboard",
       description:
-        "Cryptocurrency dashboard built with Django that displays live market data using an auto-refresh mechanism. It integrates Neon PostgreSQL, custom middleware, and a modular backend architecture.",
+        "Cryptocurrency dashboard built with Django that displays live market data using auto-refresh. It integrates Neon PostgreSQL and a modular backend architecture.",
       tech: [
         "Django 5",
         "Python 3",
@@ -100,7 +100,7 @@ const Projects = () => {
     {
       title: "MovieWebApp",
       description:
-        "Movie discovery web application built with React, TypeScript, and Vite, focused on browsing and exploring movie content through a modern frontend interface.",
+        "Movie discovery application built with React, TypeScript, and Vite for browsing and exploring movie content through a modern frontend interface.",
       tech: ["React", "TypeScript", "React Icons", "Vite"],
       Image: ["movieapp.png"],
       github: "https://github.com/iwanehu/MovieWebApp",
@@ -110,7 +110,7 @@ const Projects = () => {
     {
       title: "The Wild Oasis",
       description:
-        "Reservation management dashboard for luxury cabins. It allows administrators to manage bookings, cabins, users, and application settings through a modern full-stack interface.",
+        "Reservation management dashboard for luxury cabins. It allows administrators to manage bookings, cabins, users, and application settings.",
       tech: [
         "React",
         "Next.js",
@@ -145,19 +145,19 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 px-6">
-      <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold mb-12 text-center">
+    <section id="projects" className="py-24 px-6">
+      <div className="container mx-auto max-w-7xl">
+        <h2 className="text-4xl md:text-5xl font-bold mb-14 text-center">
           Featured <span className="text-gradient">Projects</span>
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <Card
               key={project.title}
-              className="group hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 border-border"
+              className="group h-full flex flex-col overflow-hidden hover:shadow-xl hover:shadow-primary/10 transition-all duration-300 border-border"
             >
-              <div className="relative aspect-video overflow-hidden">
+              <div className="relative aspect-video overflow-hidden bg-muted">
                 <img
                   src={project.Image[0]}
                   alt={`${project.title} preview`}
@@ -170,12 +170,12 @@ const Projects = () => {
                   {project.title}
                 </CardTitle>
 
-                <CardDescription>
+                <CardDescription className="leading-relaxed">
                   {project.description}
                 </CardDescription>
               </CardHeader>
 
-              <CardContent>
+              <CardContent className="flex flex-col flex-1">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech) => (
                     <span
@@ -187,7 +187,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="flex gap-3">
+                <div className="flex gap-3 mt-auto pt-4">
                   <Button
                     size="sm"
                     variant="outline"
